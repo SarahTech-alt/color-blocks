@@ -1,0 +1,29 @@
+body {
+    
+}
+
+.color {
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    float: left;
+    margin: 1%;
+    text-align: center;
+}
+
+
+#blue{
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
