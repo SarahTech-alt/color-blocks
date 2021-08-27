@@ -14,7 +14,6 @@ function readyNow() {
     $("#green-button").on('click', addGreenBlock)
     $("#yellow-button").on('click', addYellowBlock)
     $("#blue-button").on('click', addBlueBlock)
-
 }
 
 function addRedBlock() {
@@ -55,3 +54,7 @@ let counter = {
     blueBlocks: 0,
     greenBlocks: 0
 };
+
+function removeBlock(){
+    $(this).remove();
+}
