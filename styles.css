@@ -1,8 +1,12 @@
-body {
-    
+.blue{
+    background-color: blue;
 }
 
-.color {
+.yellow {
+    background-color: yellow;
+}
+
+.block {
     height: 100px;
     width: 100px;
     line-height: 100px;
@@ -11,19 +15,22 @@ body {
     text-align: center;
 }
 
-
-#blue{
-    background-color: blue;
-}
-
-#yellow {
-    background-color: yellow;
-}
-
-#red {
+.red {
     background-color: red;
 }
 
-#green {
+.green {
     background-color: green;
+}
+
+button {
+    height: 100px;
+    width:100px;
+    margin: 10px;
+}
+
+.block-counter{
+    height: 100px;
+    width:100px;
+    margin: 10px;
 }
